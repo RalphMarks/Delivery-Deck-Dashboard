@@ -1,0 +1,18 @@
+h1, h2, h3, h4, h5, h6, a {
+  color: #2b3647;
+}
+
+a:hover{
+  color: #1f8cce;
+}
+
+.btn-primary {
+  background-color: #2b3647;
+  color: #ffffff;
+  border-color: #2b3647;
+}
+
+
+.btn-primary:hover{
+  background-color: #1f8cce
+}
