@@ -1,0 +1,26 @@
+.tracking__btn{
+  background-color: #2ca0f6;
+  border-radius: 16px;
+  width: 120px;
+}
+.tracking__title{
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  opacity: 0.8;
+  letter-spacing: 1px;
+  float: left;
+  margin-left: 16px;
+}
+.tracking__address{
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  opacity: 0.4;
+  letter-spacing: 1px;
+  float: left;
+  margin-left: 16px;
+}
+.tracking__addressRow{
+  min-height: 24px;
+  text-align: justify;
+}

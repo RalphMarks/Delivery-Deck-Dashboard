@@ -1,0 +1,39 @@
+.modal-backdrop.show{
+  opacity: 0.5;
+}
+
+.modal-content{
+  border: none;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.24);
+  box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.24);
+}
+.form-group{
+  margin-bottom: 0.5rem;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: -1px 1px 1px 1px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

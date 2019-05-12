@@ -17,7 +17,6 @@ import {
   ListGroupItem,
   ListGroup,
   ButtonGroup,
-  HelpBlock,
   Image,
 } from 'react-bootstrap';
 import TaskModal from '../Modals/TaskModal';
@@ -153,8 +152,6 @@ export default class TopBar extends Component {
                       value={this.state.phone}
                       onChange={this.handleChange}
                     />
-                    <HelpBlock>Introduce 10 digitos.</HelpBlock>
-                     <br />
                     <ButtonGroup onChange={event => console.log(event)}>
                       <Button>
                         <Image src="img/icon-transportMode-foot.png" />

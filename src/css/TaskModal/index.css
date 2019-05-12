@@ -1,0 +1,17 @@
+.create-task-input{
+  border-color: #d7d9db #dfe1e3 #eaebec;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: 400;
+  height: 31px;
+  box-shadow: 0 1px 0 #fff;
+  transition: none;
+}
+
+.create-task-select{
+  font-size: 12px;
+  cursor: pointer;
+  line-height:12px;
+}

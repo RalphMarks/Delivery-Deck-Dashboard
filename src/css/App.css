@@ -10,9 +10,26 @@ a:hover{
   background-color: #2b3647;
   color: #ffffff;
   border-color: #2b3647;
+  font-size: 13px;
+  width: 80px;
 }
 
-
 .btn-primary:hover{
-  background-color: #1f8cce
+  background-color: #2b3647;
+  color: #ffffff;
+  border-color: #2b3647;
+}
+
+.btn-cancel {
+  background-color: #ececec;
+  color: #000;
+  border-color: #c2c2c2;
+  font-size: 13px;
+  width: 80px;
+}
+
+.btn-cancel:hover{
+  background-color: #ececec;
+  color: #000;
+  border-color: #c2c2c2;
 }

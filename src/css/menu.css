@@ -1,16 +1,16 @@
-.topBar{
+.menu{
   position: absolute;
   height: 40px;
   width: 100vw;
   background-color: #2d2e2c;
   z-index: 1;
   padding-right: 32px;
-  border: 2px solid black;
+  border: 1px solid #000;
 }
-.topBar__icon{
+.menu__icon{
   height: 16px;
-  margin: 8px 24px 0;
-
+  margin: 10px 24px 0;
+  cursor: pointer;
 }
 
 

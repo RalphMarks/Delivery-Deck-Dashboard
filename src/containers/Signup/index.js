@@ -7,11 +7,11 @@ export default class Signup extends React.Component {
   render() {
     return (
       <Container className="signupContainer" fluid={true}>
-        <Row>
+        <Row style={{backgroundColor:'#f5f5f5'}}>
           <Col sm={12}>
             <Image className="signup__image" src="img/user.png" />
           </Col>
-          <Col style={{ margin: 'auto' }} className="signup" sm={12} md={6}>
+          <Col style={{ marginLeft: 'auto', marginRight:'auto', marginBottom: '24px'}} className="signup" sm={12} md={6}>
             <SignupForm />
           </Col>
         </Row>

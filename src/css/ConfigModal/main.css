@@ -1,0 +1,12 @@
+.modalMessenger{
+  cursor: pointer;
+  font-size: 12px;
+}
+.modalMessenger:hover{
+  background-color: #f5f5f5;
+}
+
+.modalMessenger.active {
+  background-color: deepskyblue;
+  color: white;
+}
